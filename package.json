@@ -19,6 +19,7 @@
         "@theme-ui/presets": "^0.3.0",
         "@zeit/next-css": "^1.0.1",
         "autoprefixer": "^9.8.5",
+        "axios": "^0.21.1",
         "emotion-theming": "^10.0.27",
         "next": "9.4.4",
         "next-images": "^1.4.0",
