@@ -1,11 +1,18 @@
 import React from 'react';
 
-import {useRouter} from 'next/router';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 
-export default function Home(){
+import Layout from '../../Components/Layout'
+
+export default function Home() {
     return (
-        <div>
-            <p>Here is the homepage of the app.</p>
-        </div>
-    )
+        <Layout>
+            <div>
+                <Head>
+                    <title>Welcome to the Jefflix App in Next.js!</title>
+                </Head>
+            </div>
+        </Layout>
+    );
 }

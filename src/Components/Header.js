@@ -1,11 +1,9 @@
 import React from 'react'
 
- export default function Login() {
+export default function Header(){
     return (
         <div>
-            This is the login page.
+            Header
         </div>
     )
 }
-
-
