@@ -18,9 +18,9 @@ export default function Layout(props) {
 
     return (
         <div className="layout" style={layoutStyle}>
-            <NavBar />
             <Header />
-            <div className="content" style={contentStyle}>
+            <NavBar />
+            <div className="content bg-black" style={contentStyle}>
                 {props.children}
             </div>
         </div>
